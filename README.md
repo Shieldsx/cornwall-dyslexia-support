@@ -44,17 +44,18 @@ Design Details: Colour pallet, colour picker, font awesome, a colour contrast ch
 Naviagation Structure: There will be a consistent Nav Bar horizontally formed at the top of the page on all devices, displaying a row of links for the desktop and a dropdown burger menu for the tablet and mobile.
 
 User Stories:
-Homepage Clarity
+
+-Homepage Clarity
 As a parent, I want a clear overview of what dyslexia assessments involve so that I can decide if this service is suitable for my child.
 
-Accessibility Comfort – Student User
+-Accessibility Comfort – Student User
 As a student, I want the homepage to be easy to read and accessible so that I don’t feel overwhelmed.
 
-Quick Contact – Teacher User
+-Quick Contact – Teacher User
 As a teacher, I want to quickly find assessment and contact information so that I can refer a student easily.
 
-Mobile Navigation – Mobile User
+-Mobile Navigation – Mobile User
 As a mobile user, I want a responsive layout with clear sections and a back-to-top button so that I can move around the page easily.
 
-Light/Dark Mode – Returning User
+-Light/Dark Mode – Returning User
 As a returning user, I want a light/dark theme toggle so that I can choose the view that’s most comfortable for my eyes.
