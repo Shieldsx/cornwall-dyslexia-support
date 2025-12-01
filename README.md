@@ -16,3 +16,12 @@ Responsiveness shouldn’t be an issue either, since the layout stays mostly con
 I also wanted to include a light/dark—or even alternative colour—theme switch to make the site more welcoming, especially for users who may be dyslexic or sensitive to certain colour contrasts. The client also requested quotes alongside images, and I agree they help the page feel fuller, more engaging, and a bit inspirational.
 
 Finally, the contact information will be kept very clear, since that’s the main point of interaction between users and the business for arranging assessments and reports. I added a social media bar at the bottom as an optional finishing touch; even though the client doesn’t currently use social media, it’s good to demonstrate that I’m able to implement it if needed in the future.
+
+I made my wireframe designs using Figma. Despite already being familiar with Figma, I struggled to adapt and work with the multiple-screen-canvas format they provide so I think next time I will try out Balsamiq instead. 
+<img width="2711" height="5034" alt="Flagstone Design 1" src="https://github.com/user-attachments/assets/343f5fc9-13b2-4200-8a2e-a720d41698f0" />
+
+Target Audience
+The target audience includes anyone who feels they may benefit from support, whether that’s free advice, general guidance, or full diagnostic assessments, including Disabled Students’ Allowance (DSA). Essentially, it’s for users who are looking for clarity, reassurance, or formal assessment options.
+
+SEO
+To improve searchability and help potential users actually find the site, I added a site description and other key metadata to the <head> of the index.html file. This boosts SEO, gives search engines clearer context, and supports the site’s overall visibility online.
