@@ -20,8 +20,30 @@ Finally, the contact information will be kept very clear, since that’s the mai
 I made my wireframe designs using Figma. Despite already being familiar with Figma, I struggled to adapt and work with the multiple-screen-canvas format they provide so I think next time I will try out Balsamiq instead. 
 <img width="2711" height="5034" alt="Flagstone Design 1" src="https://github.com/user-attachments/assets/343f5fc9-13b2-4200-8a2e-a720d41698f0" />
 
-Target Audience
+Target Audience - 
 The target audience includes anyone who feels they may benefit from support, whether that’s free advice, general guidance, or full diagnostic assessments, including Disabled Students’ Allowance (DSA). Essentially, it’s for users who are looking for clarity, reassurance, or formal assessment options.
 
-SEO
+SEO - 
 To improve searchability and help potential users actually find the site, I added a site description and other key metadata to the <head> of the index.html file. This boosts SEO, gives search engines clearer context, and supports the site’s overall visibility online.
+
+Project outcomes I hope to achieve:
+
+- Design and develop a static website using HTML, CSS and JavaScript.
+- Apply user experience, accessability and resposiveness princibles.
+- Test and deploy the website through all development stages.
+- Use documentation and structure to ensure maintainability.
+- Deploy the final site to a GitHub Pages.
+- Demonstrate version control using GitHub.
+
+Project Goals:
+
+Project Features:
+
+Design Details: Colour pallet, colour picker, font awesome, a colour contrast checker
+
+Naviagation Strucutre:
+
+User Stories:
+
+
+
