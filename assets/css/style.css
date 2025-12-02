@@ -4,3 +4,33 @@
         text-align: left !important;
     }
 }
+
+/* Simple light/dark theme using body classes + CSS variables */
+
+/* Default values (light theme) */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #212529;
+    --card-bg: #ffffff;
+}
+
+/* Dark theme overrides */
+body.theme-dark {
+    --bg-color: #121212;
+    --text-color: #f8f9fa;
+    --card-bg: #1f1f1f;
+}
+
+/* Apply to page */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Optional: make sections/cards follow theme */
+.navbar,
+section,
+.card,
+#footer {
+    background-color: var(--card-bg);
+}
