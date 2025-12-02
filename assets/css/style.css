@@ -34,3 +34,17 @@ section,
 #footer {
     background-color: var(--card-bg);
 }
+
+/* Optional: Adjust link colors for visibility */
+#contact a,
+#contact-emails a {
+    color: var(--text-color);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+#contact a:hover,
+#contact-emails a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
