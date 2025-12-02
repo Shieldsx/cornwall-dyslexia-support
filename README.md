@@ -37,7 +37,7 @@ Project outcomes I hope to achieve:
 
 Project Goals:
 
-Project Features:
+Project Features: One fully responsive webpage (Homepage), different sections for different information, anchor link buttons, images, an appearing back-to-top button, a floating theme-toggle switch, contact information with working hyperlinks, social media icons linked to their sites.
 
 Design Details: Colour pallet, colour picker, font awesome, a colour contrast checker
 
