@@ -1,0 +1,6 @@
+/* Extra-small screen fix: Align nav links LEFT on 320px and below */
+@media (max-width: 320px) {
+    #mainNav {
+        text-align: left !important;
+    }
+}
