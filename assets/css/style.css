@@ -3,6 +3,7 @@ body {
     font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,18 +21,18 @@ h1, h2, h3, h4, h5, h6 {
 /* Simple light/dark theme using body classes + CSS variables */
 
 /* Default values (light theme) */
+/* ========== LIGHT THEME (default) ========== */
 :root {
-    --bg-color: #ffffff;
-    --text-color: #212529;
-    --card-bg: #ffffff;
+    --bg-color: #F3F4F6;     /* light grey background */
+    --text-color: #1F2937;   /* charcoal text */
 }
 
-/* Dark theme overrides */
-body.theme-dark {
-    --bg-color: #121212;
-    --text-color: #f8f9fa;
-    --card-bg: #1f1f1f;
+/* ========== DARK THEME ========== */
+[data-theme="dark"] {
+    --bg-color: #111827;     /* deep navy charcoal */
+    --text-color: #F3F4F6;   /* off-white text */
 }
+
 
 /* Optional: make sections/cards follow theme */
 .navbar,

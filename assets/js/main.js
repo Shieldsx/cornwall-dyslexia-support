@@ -16,19 +16,18 @@ backToTopBtn.addEventListener("click", () => {
 // SIMPLE LIGHT/DARK THEME TOGGLE
 const themeButtons = document.querySelectorAll("#themeToggleFloating");
 
-// Start in light mode
-
-let currentTheme = "light";
+let currentTheme = "light"; // start in light mode
 
 themeButtons.forEach(btn => {
     btn.addEventListener("click", () => {
+
+        // Toggle theme variable
         currentTheme = currentTheme === "light" ? "dark" : "light";
 
-        // Toggle body classes
-        document.body.classList.toggle("theme-light", currentTheme === "light");
-        document.body.classList.toggle("theme-dark", currentTheme === "dark");
+        // Apply theme to the <html> tag
+        document.documentElement.setAttribute("data-theme", currentTheme);
 
-        // Update icons on both buttons
+        // Update icons
         themeButtons.forEach(b => {
             b.textContent = currentTheme === "light" ? "🌙" : "☀️";
         });
