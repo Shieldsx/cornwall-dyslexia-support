@@ -58,6 +58,35 @@ section,
 
 #logo-placeholder img { max-width: 150px; }
 
+/* ===== TOP ANCHOR BUTTONS (Button Look) ===== */
+.top-btn {
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+
+    background-color: var(--white);          /* Light mode base */
+    color: var(--primary);
+    border: 2px solid var(--primary);
+
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);  /* Gives a real button feel */
+    transition: 
+        background-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.2s ease,
+        box-shadow 0.25s ease;
+}
+
+/* Hover state — Not pressed, just interactive */
+.top-btn:hover {
+    background-color: var(--primary);
+    color: var(--white);
+    transform: translateY(-3px);  /* lifts slightly */
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);  /* bigger, softer shadow */
+}
+
+/* ========== FLOATING BUTTONS ========== */
 #backToTop {
     bottom: 20px;
     right: 20px;
