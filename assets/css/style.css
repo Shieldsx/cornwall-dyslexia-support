@@ -66,7 +66,7 @@ section,
     opacity: 0.8;
 }
 
-#logo-placeholder img { max-width: 150px; }
+#logo img { max-width: 150px; }
 
 /* ===== TOP ANCHOR BUTTONS (Button Look) ===== */
 .top-btn {
@@ -111,9 +111,9 @@ section,
 
 /* ===== QUOTE CARD ===== */
 .quote-card {
-    max-width: 900px;
+    max-width: 700px;
     margin: 50px auto;
-    padding: 40px 30px;
+    padding: 20px 20px;
     background: var(--white);
     border-radius: 12px;
     position: relative;
