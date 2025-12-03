@@ -59,3 +59,8 @@ As a mobile user, I want a responsive layout with clear sections and a back-to-t
 
 ⦁	Light/Dark Mode – Returning User
 As a returning user, I want a light/dark theme toggle so that I can choose the view that’s most comfortable for my eyes.
+
+Chat GBT suggestion for hex colour pallete for a dyslexia support website:
+Calming (not overstimulating), accessible (high contrast, dyslexia-friendly), professional & trustworthy, warm, not clinical, avoids harsh pure blacks & whites (these cause visual stress for dyslexic readers).
+
+
