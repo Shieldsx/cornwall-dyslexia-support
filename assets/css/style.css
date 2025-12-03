@@ -1,3 +1,15 @@
+/* Apply to page */
+body {
+    font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Atkinson Hyperlegible', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
 /* Extra-small screen fix: Align nav links LEFT on 320px and below */
 @media (max-width: 320px) {
     #mainNav {
@@ -19,12 +31,6 @@ body.theme-dark {
     --bg-color: #121212;
     --text-color: #f8f9fa;
     --card-bg: #1f1f1f;
-}
-
-/* Apply to page */
-body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
 }
 
 /* Optional: make sections/cards follow theme */
