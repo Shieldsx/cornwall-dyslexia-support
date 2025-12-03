@@ -33,6 +33,16 @@ h1, h2, h3, h4, h5, h6 {
     --text-color: #F3F4F6;   /* off-white text */
 }
 
+[data-theme="dark"] .quote-card {
+    background: #1a1f2b;
+    border-image: linear-gradient(180deg, var(--primary), var(--primary-light)) 1;
+    box-shadow: 0 8px 25px rgba(255,255,255,0.05);
+}
+
+[data-theme="dark"] .quote-icon {
+    color: var(--primary-light);
+    opacity: 0.3;
+}
 
 /* Optional: make sections/cards follow theme */
 .navbar,
@@ -85,6 +95,63 @@ section,
     transform: translateY(-3px);  /* lifts slightly */
     box-shadow: 0 6px 14px rgba(0,0,0,0.15);  /* bigger, softer shadow */
 }
+
+/* Limit hero/testimonial images on large screens */
+.responsive-img {
+    max-width: 600px;      /* adjust to taste */
+    margin: 0 auto;        /* centers it */
+    display: block;
+}
+
+.image-wrapper {
+    max-width: 600px;      /* adjust size as you like */
+    margin: 0 auto;        /* center it */
+}
+
+
+/* ===== QUOTE CARD ===== */
+.quote-card {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px 30px;
+    background: var(--white);
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+
+    /* Gradient border */
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, var(--primary-light), var(--primary)) 1;
+}
+
+/* Large quotation mark */
+.quote-icon {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 80px;
+    line-height: 0.8;
+    color: var(--primary-light);
+    opacity: 0.25;
+    font-family: Georgia, serif;
+}
+
+/* Blockquote text */
+#quote blockquote {
+    font-style: italic;
+    font-size: 1.35rem;
+    line-height: 1.6;
+    margin: 0 auto 20px;
+    max-width: 750px;
+    color: var(--text-color);
+}
+
+/* Attribution */
+#quote p {
+    font-weight: 600;
+    opacity: 0.7;
+}
+
 
 /* ========== FLOATING BUTTONS ========== */
 #backToTop {
