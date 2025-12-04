@@ -89,6 +89,14 @@ Lighthouse: I used Lighthouse to audit my site for performance, accessibility, a
 My desktop analytics report came off better.
 <img width="1916" height="880" alt="desktop report" src="https://github.com/user-attachments/assets/06209509-08b3-43de-a9eb-ad3a3ff61775" />
 
+What I could have done better -
+I could have done many things better, but I think this comes down the timescale of this project as a whole. It's a quick build with most of the project being about the planning and documenting. However, I think it came out alright for what it was inteded for.
+The title should have been a H1, which is very important for SEO. Unfortunatly I left this late so I couldn't implement a working, cooporative (with the toggle) H1 title element by the deadline. In my next project I will make sure I do that. I could have explored more colour schemes but I decided to put more time and energy into other parts. The images do take up a lot of the webpage and I haven't explored carousels or image cards during this project. Also the layout looks a bit bland and central, but I was prioritising the working mechanisms and functions of the site. Using bootstrap instead of just plain CSS was a new experience for me, and I think it came off smoothly.
+
+What I've learnt -
+I've learnt that there is more to websites than just the user experience and interface. Semantics are very important, as well as version control and testing. 
+I've learnt that I will need more time than I initially thought I would to design, develop, document and polish a webpage of decent standard. However, I'm still learning and doing this project, trying new things, has helped me learn and gain vital knowledge and experience in web design. 
+
 
 
 
