@@ -43,24 +43,31 @@ Design Details: Colour pallet, colour picker, font awesome, a colour contrast ch
 
 Naviagation Structure: There will be a consistent Nav Bar horizontally formed at the top of the page on all devices, displaying a row of links for the desktop and a dropdown burger menu for the tablet and mobile.
 
-User Stories:
-
+User Stories -
 ⦁	Homepage Clarity
 As a parent, I want a clear overview of what dyslexia assessments involve so that I can decide if this service is suitable for my child.
-
 ⦁	Accessibility Comfort – Student User
 As a student, I want the homepage to be easy to read and accessible so that I don’t feel overwhelmed.
-
 ⦁	Quick Contact – Teacher User
 As a teacher, I want to quickly find assessment and contact information so that I can refer a student easily.
-
 ⦁	Mobile Navigation – Mobile User
 As a mobile user, I want a responsive layout with clear sections and a back-to-top button so that I can move around the page easily.
-
 ⦁	Light/Dark Mode – Returning User
 As a returning user, I want a light/dark theme toggle so that I can choose the view that’s most comfortable for my eyes.
 
+Colour Pallet -
 Chat GBT suggestion for hex colour pallete for a dyslexia support website:
 Calming (not overstimulating), accessible (high contrast, dyslexia-friendly), professional & trustworthy, warm, not clinical, avoids harsh pure blacks & whites (these cause visual stress for dyslexic readers).
+
+Testing and Validation -
+
+HTML Validator: I used the W3C Markup Validation Service to check my HTML for any syntax errors or issues. No issues, just unnecessary warnings.
+CSS Validator: The W3C CSS Validation Service helped me ensure my stylesheets were error-free and followed best practices. No errors found.
+Autoprefixer for CSS: I used Autoprefixer to automatically add vendor prefixes to my CSS rules, ensuring better compatibility with different browsers such as Opera and Safari.
+Lighthouse: I used Lighthouse to audit my site for performance, accessibility, and SEO best practices. This was a great way to score my site and identify actionable steps I can take to increase the quality of my site. 
+My first result was slow performance so I using Chat GBt for advice I compressed the images using Optimizilla. Then I converted them back to webp format. I then attempted again and it boosted to 80 score.
+On attempt 3 I boosted it to 85 by adding fetchpriority="high" to my hero image. I also added loading="lazy" to all my images and added preconnect to Google Fonts.
+
+
 
 
