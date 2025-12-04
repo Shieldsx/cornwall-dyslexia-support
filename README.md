@@ -64,18 +64,24 @@ Calming (not overstimulating), accessible (high contrast, dyslexia-friendly), pr
 Testing and Validation -
 
 HTML Validator: I used the W3C Markup Validation Service to check my HTML for any syntax errors or issues. No issues, just unnecessary warnings.
+<img width="1833" height="888" alt="html checker" src="https://github.com/user-attachments/assets/db4b7553-bb01-4350-b608-de4e2a2631fd" />
 CSS Validator: The W3C CSS Validation Service helped me ensure my stylesheets were error-free and followed best practices. No errors found.
+<img width="1893" height="902" alt="css checker" src="https://github.com/user-attachments/assets/f5f9a3be-3b6a-4795-a4cf-154caab3d9a3" />
 Autoprefixer for CSS: I used Autoprefixer to automatically add vendor prefixes to my CSS rules, ensuring better compatibility with different browsers such as Opera and Safari.
+<img width="1898" height="906" alt="autoprefixer usage" src="https://github.com/user-attachments/assets/c4122ae2-bf64-4e3e-85b9-154b8904a53e" />
 Lighthouse: I used Lighthouse to audit my site for performance, accessibility, and SEO best practices. This was a great way to score my site and identify actionable steps I can take to increase the quality of my site. 
 I tested the mobile first and my first result was slow performance so I using Chat GBt for advice I compressed the images using Optimizilla. Then I converted them back to webp format using CloudConvert. I then attempted again and it boosted to 80 score.
-
 On attempt 3 I boosted it to 85 by adding fetchpriority="high" to my hero image. I also added loading="lazy" to all my images and added preconnect to Google Fonts.
-
 On the next few attempts I tried a few things like adding the exact width and height to each image but it wouldn't raise the score much, it even went down in some attampts. 
 I added in <link rel="preload" href="assets/css/style.css" as="style" before my main CSS and added <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin into the head. This got it to 82.
 After looking at the analytics I decided to reduce the width of my images to 1000px max, which is more friendly to mobile screens. I did this using LunaPic. I then converted the images back to webp and the score went down to 68. 
 This confused me so I decided to revert back to a version from GitHub before I started to test with the lighthouse. I kept the compressed images and placed them into the images folder replaces the larger sized images.
+
 <img width="1917" height="885" alt="last lighthouse test" src="https://github.com/user-attachments/assets/fa72850a-4041-41d3-91c5-6a6b5bf41551" />
+
+My desktop analytics report came off better.
+<img width="1916" height="880" alt="desktop report" src="https://github.com/user-attachments/assets/06209509-08b3-43de-a9eb-ad3a3ff61775" />
+
 
 
 
