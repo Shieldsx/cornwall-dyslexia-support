@@ -55,7 +55,9 @@ As a mobile user, I want a responsive layout with clear sections and a back-to-t
 ⦁	Light/Dark Mode – Returning User
 As a returning user, I want a light/dark theme toggle so that I can choose the view that’s most comfortable for my eyes.
 
-Colour Pallet -
+Colour Pallet - I went with two colours that alternated when the toggle was switched. These were the colours advised to me by my AI co-pilot.
+<img width="1291" height="211" alt="colour pallet" src="https://github.com/user-attachments/assets/68f17b05-45d4-4984-af6d-c3898d5db389" />
+
 Chat GBT suggestion for hex colour pallete for a dyslexia support website:
 Calming (not overstimulating), accessible (high contrast, dyslexia-friendly), professional & trustworthy, warm, not clinical, avoids harsh pure blacks & whites (these cause visual stress for dyslexic readers).
 
@@ -65,8 +67,20 @@ HTML Validator: I used the W3C Markup Validation Service to check my HTML for an
 CSS Validator: The W3C CSS Validation Service helped me ensure my stylesheets were error-free and followed best practices. No errors found.
 Autoprefixer for CSS: I used Autoprefixer to automatically add vendor prefixes to my CSS rules, ensuring better compatibility with different browsers such as Opera and Safari.
 Lighthouse: I used Lighthouse to audit my site for performance, accessibility, and SEO best practices. This was a great way to score my site and identify actionable steps I can take to increase the quality of my site. 
-My first result was slow performance so I using Chat GBt for advice I compressed the images using Optimizilla. Then I converted them back to webp format. I then attempted again and it boosted to 80 score.
+I tested the mobile first and my first result was slow performance so I using Chat GBt for advice I compressed the images using Optimizilla. Then I converted them back to webp format using CloudConvert. I then attempted again and it boosted to 80 score.
+
 On attempt 3 I boosted it to 85 by adding fetchpriority="high" to my hero image. I also added loading="lazy" to all my images and added preconnect to Google Fonts.
+
+On the next few attempts I tried a few things like adding the exact width and height to each image but it wouldn't raise the score much, it even went down in some attampts. 
+I added in <link rel="preload" href="assets/css/style.css" as="style" before my main CSS and added <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin into the head. This got it to 82.
+After looking at the analytics I decided to reduce the width of my images to 1000px max, which is more friendly to mobile screens. I did this using LunaPic. I then converted the images back to webp and the score went down to 68. 
+This confused me so I decided to revert back to a version from GitHub before I started to test with the lighthouse. I kept the compressed images and placed them into the images folder replaces the larger sized images.
+<img width="1917" height="885" alt="last lighthouse test" src="https://github.com/user-attachments/assets/fa72850a-4041-41d3-91c5-6a6b5bf41551" />
+
+
+
+
+
 
 
 
