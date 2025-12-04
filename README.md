@@ -35,13 +35,17 @@ Project outcomes I hope to achieve:
 - Deploy the final site to a GitHub Pages.
 - Demonstrate version control using GitHub.
 
-Project Goals:
+Project Goals- 
+To devlelop a functional, reaponsive webpage loyal to my designs and to cover the advised criteria. Along with this, providing evidence of testing and documentation in the Readme file along with screenshots. 
 
-Project Features: One fully responsive webpage (Homepage), different sections for different information, anchor link buttons, images, an appearing back-to-top button, a floating theme-toggle switch, contact information with working hyperlinks, social media icons linked to their sites.
+Project Features- 
+One fully responsive webpage (Homepage), different sections for different information, anchor link buttons, images, an appearing back-to-top button, a floating theme-toggle switch, contact information with working hyperlinks, social media icons linked to their sites.
 
-Design Details: Colour pallet, colour picker, font awesome, a colour contrast checker
+Design Details- 
+Colour pallet, colour picker, font awesome, a colour contrast checker
 
-Naviagation Structure: There will be a consistent Nav Bar horizontally formed at the top of the page on all devices, displaying a row of links for the desktop and a dropdown burger menu for the tablet and mobile.
+Naviagation Structure- 
+There will be a consistent Nav Bar horizontally formed at the top of the page on all devices, displaying a row of links for the desktop and a dropdown burger menu for the tablet and mobile.
 
 User Stories -
 ⦁	Homepage Clarity
