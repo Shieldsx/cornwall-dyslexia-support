@@ -84,10 +84,13 @@ Autoprefixer for CSS: I used Autoprefixer to automatically add vendor prefixes t
 Lighthouse: I used Lighthouse to audit my site for performance, accessibility, and SEO best practices. This gave me a reliable way to score the site and identify specific improvements to increase overall quality. I tested the mobile version first, and my initial performance score was low, so I began optimising the site step-by-step.
 My first action was to compress all images using Optimizilla, then convert them back into WebP format through CloudConvert. After replacing the original files, my performance score increased to around 80. On my next attempt, I improved the score to 85 by adding fetchpriority="high" to the hero image and applying loading="lazy" to all other images. I also added a preconnect to Google Fonts to reduce loading time.
 I continued experimenting by adding explicit width and height attributes to images, but this didn’t improve the score and sometimes caused it to drop. I then tried preloading my main stylesheet using:
+
 <link rel="preload" href="assets/css/style.css" as="style">
+
 and added another preconnect for the CDN hosting Bootstrap resources. This brought the score to around 82.
 After reviewing the Lighthouse analytics more closely, I decided to reduce the maximum width of my images to 1000px to make them lighter and more mobile-friendly. I did this using LunaPic, converted them back into WebP, and replaced the original files. However, this unexpectedly caused the performance score to fall to 68.
 Because this created more issues than improvements, I chose to revert the project back to a previous GitHub version from before I started experimenting with Lighthouse. I kept the compressed WebP images but restored the rest of the layout and assets to a stable point so I could continue optimising from a clean baseline.
+
 <img width="1917" height="885" alt="last lighthouse test" src="https://github.com/user-attachments/assets/fa72850a-4041-41d3-91c5-6a6b5bf41551" />
 
 My desktop analytics report came off better.
