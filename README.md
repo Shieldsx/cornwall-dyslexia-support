@@ -1,9 +1,9 @@
 # cornwall-dyslexia-support
-This is my first Flagstone project: a website for a local business that offers everything from free advice and support to full diagnostic assessments, including Disabled Students’ Allowance (DSA). For this project, I’ll be documenting as much of the process as possible so I can see where my strengths really are and where I need to level up—especially when it comes to planning and building responsive, accessible webpages with a strong user experience.
+This is my first Flagstone project: a website for a local business that offers everything from free advice and support to full diagnostic assessments, including Disabled Students’ Allowance (DSA). For this project, I’ll be documenting as much of the process as possible so I can see where my strengths really are and where I need to level up, especially when it comes to planning and building responsive, accessible webpages with a strong user experience.
 
 A key part of this journey will be the peer feedback and reviews I receive along the way. I expect that input to be incredibly valuable; seeing my work through someone else’s perspective helps me spot things I might overlook and pushes me to improve. I also want to get a better feel for the “plan first, build after” workflow and understand how long different tasks actually take. This will help me estimate realistic timeframes for future real-world projects.
 
-The website itself is a simple static site designed to give users the information they need to decide whether this business is the right place for them to request an assessment. Clear communication is essential—users should immediately understand who Cornwall Dyslexia Support are, what services they offer, and how to contact them.
+The website itself is a simple static site designed to give users the information they need to decide whether this business is the right place for them to request an assessment. Clear communication is essential, users should immediately understand who Cornwall Dyslexia Support are, what services they offer, and how to contact them.
 
 Because most people now browse on mobile devices, a mobile-first approach was essential. The site needed to be fully responsive so that the information stays clear, accessible, and easy to navigate on any screen size.
 
@@ -93,11 +93,12 @@ Project board - I used ChatGBT to help me come up with issues for my project boa
 <img width="1915" height="904" alt="project cards" src="https://github.com/user-attachments/assets/18e121c0-3323-4b68-bee6-31b50543f05f" />
 
 What I could have done better -
-I could have done many things better, but I think this comes down the timescale of this project as a whole. It's a quick build with most of the project being about the planning and documenting. However, I think it came out alright for what it was inteded for.
-The title should have been a H1, which is very important for SEO. Unfortunatly I left this late so I couldn't implement a working, cooporative (with the toggle) H1 title element by the deadline. In my next project I will make sure I do that. I could have explored more colour schemes but I decided to put more time and energy into other parts. The images do take up a lot of the webpage and I haven't explored carousels or image cards during this project. Also the layout looks a bit bland and central, but I was prioritising the working mechanisms and functions of the site. Using bootstrap instead of just plain CSS was a new experience for me, and I think it came off smoothly.
+I could have done many things better, but I think this comes down to the timescale of this project as a whole. It's a quick build with most of the project being about the planning and documenting. However, I think it came out alright for what it was intended for.
+The title should have been a H1, which is very important for SEO. Unfortunately I left this late so I couldn't implement a working, cooporative (with the toggle) H1 title element by the deadline. In my next project I will make sure I do that first and get the semantics sorted before anything. I could have explored more colour schemes but I decided to put more time and energy into other parts. The images do take up a lot of the webpage and I haven't explored carousels or image cards during this project. Also the layout looks a bit bland and central, but I was prioritising the working mechanisms and functions of the site. Using bootstrap instead of just plain CSS was a new experience for me, and I think it came off smoothly.
 
 What I've learnt -
-I've learnt that there is more to websites than just the user experience and interface. Semantics are very important, as well as version control and testing. 
+I've learnt that there is more to websites than just the user experience and interface. Semantics are very important, as well as version control and testing.
+I've learnt that I need to test my site for semantics, screen-readers, SEO etc. from the start so I know that area is covered. 
 I've learnt that I will need more time than I initially thought I would to design, develop, document and polish a webpage of decent standard. However, I'm still learning and doing this project, trying new things, has helped me learn and gain vital knowledge and experience in web design. 
 
 
