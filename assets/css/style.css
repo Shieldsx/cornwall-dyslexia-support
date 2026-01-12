@@ -31,34 +31,71 @@ h1, h2, h3, h4, h5, h6 {
 /* Default values (light theme) */
 /* ========== LIGHT THEME (default) ========== */
 :root {
-    --bg-color: #F3F4F6;     /* light grey background */
-    --text-color: #1F2937;   /* charcoal text */
+    --bg-color: #F3F4F6;     /* light grey page background */
+    --text-color: #1F2937;   /* dark readable text */
+
+    --card-bg: #ffffff;     /* WHITE cards */
+    --white: #ffffff;       /* true white */
+
+    --accent-color: #0d4a6b;
+    --divider-color: #0d4a6b;
+    --caption-color: #0d4a6b;
 }
+
 
 /* ========== DARK THEME ========== */
-[data-theme="dark"] {
-    --bg-color: #111827;     /* deep navy charcoal */
-    --text-color: #F3F4F6;   /* off-white text */
+/* ========== DARK THEME ========== */
+html[data-theme="dark"] {
+    --bg-color: #111827;
+    --text-color: #F3F4F6;
+
+    --card-bg: #1a1f2b;
+    --white: #1a1f2b;
+
+    --accent-color: #9fbad0;
+    --divider-color: #9fbad0;
+    --caption-color: #9fbad0;
 }
 
-[data-theme="dark"] .quote-card {
-    background: #1a1f2b;
-    border-image: linear-gradient(180deg, var(--primary), var(--primary-light)) 1;
-    box-shadow: 0 8px 25px rgba(255,255,255,0.05);
-}
-
-[data-theme="dark"] .quote-icon {
-    color: var(--primary-light);
-    opacity: 0.3;
-}
 
 /* Optional: make sections/cards follow theme */
-.navbar,
-section,
+/* Page background */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Structural containers that should look like cards */
 .card,
+.quote-card,
+.navbar,
 #footer {
     background-color: var(--card-bg);
+    color: var(--text-color);
 }
+
+.card *,
+.quote-card * {
+    color: inherit;
+}
+
+
+.card p,
+.card li,
+.card ul,
+.card h1,
+.card h2,
+.card h3,
+.card h4,
+.card h5,
+.card h6 {
+    color: inherit;
+}
+
+[data-theme="dark"] .badge {
+    color: #ffffff;
+}
+
 
 /* Optional: Adjust link colors for visibility */
 #contact a,
@@ -116,6 +153,46 @@ section,
     margin: 0 auto;        /* center it */
 }
 
+.image-row img {
+  max-width: 90%;
+}
+
+.img-box {
+  width: 100%;
+  aspect-ratio: 4 / 3;   /* perfect square */
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* keeps images equal */
+  display: block;
+}
+
+/*Section devider*/
+.section-divider {
+  height: 4px;
+  max-width: 120px;
+  margin: 0 auto;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #0d4a6b,
+    transparent
+  );
+  border-radius: 2px;
+  opacity: 0.4;
+}
+
+/* Caption */
+.img-card figcaption {
+  margin-top: 0.75rem;
+  font-weight: 600;
+  color: #0d4a6b;
+  font-size: 0.95rem;
+}
 
 /* ===== QUOTE CARD ===== */
 .quote-card {
