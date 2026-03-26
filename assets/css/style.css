@@ -276,3 +276,10 @@ body {
     transform: scale(1.15);
 }
 
+
+ul {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px; /* optional: keeps it neat */
+}
+
