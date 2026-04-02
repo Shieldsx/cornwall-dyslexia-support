@@ -314,3 +314,7 @@ body.blog-page p {
 body.blog-page {
     overflow-x: hidden;
 }
+
+ul li {
+    margin-bottom: 10px;
+}
