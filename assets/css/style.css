@@ -26,6 +26,19 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media (min-width: 321px) and (max-width: 768px) {
+    #mainNav .navbar-nav {
+        width: 100%;
+        align-items: flex-end;
+    }
+
+    #mainNav .nav-link,
+    #mainNav .nav-static {
+        display: block;
+        text-align: right;
+    }
+}
+
 /* Simple light/dark theme using body classes + CSS variables */
 
 /* Default values (light theme) */
@@ -57,6 +70,13 @@ html[data-theme="dark"] {
     --caption-color: #9fbad0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
 
 /* Optional: make sections/cards follow theme */
 /* Page background */
@@ -283,3 +303,14 @@ ul {
     max-width: 600px; /* optional: keeps it neat */
 }
 
+body.blog-page a,
+body.blog-page li,
+body.blog-page p {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+
+body.blog-page {
+    overflow-x: hidden;
+}
